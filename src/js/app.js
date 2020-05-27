@@ -10,3 +10,6 @@ import Daemon from './classes/Daemon';
 import Team from './classes/Team';
 import ErrorRepository from './classes/ErrorRepository';
 import Settings from './classes/Settings'; // настройки игры
+
+const testSettings = new Settings({ theme: 'grays' });
+console.log(testSettings);
